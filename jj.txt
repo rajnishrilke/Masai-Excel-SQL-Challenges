@@ -1,0 +1,4 @@
+=MAX(telecom_data_python!AS:AS)-MIN(telecom_data_python!AS:AS)
+
+
+

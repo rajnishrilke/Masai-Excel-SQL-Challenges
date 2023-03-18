@@ -1,0 +1,8 @@
+=IF(LEFT(G2,LEN(G2)-1)="A","Automatic",IF(LEFT(G2,LEN(G2)-1)="AM","Automated Manual",IF(LEFT(G2,LEN(G2)-1)="AS","Automatic with select Shift",IF(LEFT(G2,LEN(G2)-1)="AV","Continously Variable",IF(LEFT(G2,LEN(G2)-1)="M","Manual","")))))
+
+
+
+=IFS(AND(E2>=0,E2<2),"0-2",AND(E2>=2,E2<4),"2-4",AND(E2>=4,E2<6),"4-6",AND(E2>=6,E2<8),"6-8",AND(E2>=8,E2<10),"8-10")
+
+
+
